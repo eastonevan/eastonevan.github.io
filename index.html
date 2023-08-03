@@ -7,18 +7,71 @@
    <head>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <title>Portfolio - Evan Easotn</title>
+      <title>Portfolio - Evan Easton</title>
       <meta name="description" content="">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="">
+      <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
    </head>
    <body>
-      <!--[if lt IE 7]>
-         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-      <![endif]-->
-      <h1>Evan's Portfolio</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime libero dolores quas reiciendis fugiat dignissimos aspernatur adipisci hic animi ut sequi, saepe, minus consequuntur placeat ipsam itaque id quidem fuga?</p>
-      
+      <header id="header">
+         <h1 class="header-title">Evan's Portfolio</h1>  
+         <nav>
+            <ul>
+               <li><a href="#about">About</a></li>
+               <li><a href="#projects">Projects</a></li>
+               <li><a href="#skills">Skills</a></li>
+               <li><a href="#contact">Contact</a></li>
+            </ul>
+         </nav>    
+      </header>
+      <main>
+         <div id="about" class="about">
+            <div class="about-text">
+               <h2 class='about-header'>Hi, my name is <span class="highlight-color">Evan Easton!</span></h2>
+               <p class="about-body">I am a graduate student at the University of Colorado - Boulder getting my Masters degreee in Computer Science. I love to ski, mountain bike, golf, make music, and play video games. I am very passionate about software engineering. </p>
+               <p class="about-body">I am a graduate student at the University of Colorado - Boulder getting my Masters degreee in Computer Science. I love to ski, mountain bike, golf, make music, and play video games. I am very passionate about software engineering. </p>
+            </div>
+            <div class="img-container">
+               <img class="headshot-img" src="headshot.jpeg" alt="Evan Easton">
+               <div class="social-icons">
+                  <a href="https://github.com/eastonevan" target="_blank" class="social-icon github">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/evan-easton-702268112/" target="_blank" class="social-icon linkedin">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                  <a href="mailto:denvereastons3@gmail.com" target="_blank" class="social-icon email">
+                    <i class="fa-solid fa-envelope"></i>
+                  </a>
+                  <!-- Add more social media icons here -->
+                </div>
+            </div>
+         </div>
+         <div class="divider"></div>
+         <div id="projects" class="projects">
+            <h2 class="projects-header highlight-color">Projects</h2>
+            <div class="projects-container">
+               <div class="project">
+                  <h3 class="project-header">Project 1</h3>
+                  <p class="project-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+               </div>
+               <div class="project">
+                  <h3 class="project-header">Project 2</h3>
+                  <p class="project-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+               </div>
+               <div class="project">
+                  <h3 class="project-header">Project 3</h3>
+                  <p class="project-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+               </div>
+            </div>
+         </div>
+         <div class="divider"></div>
+         <div id="skills" class="skills">
+            <h2 class="skills-header highlight-color">Skills</h2>
+
+         </div>
+      </main>
       <script src="" async defer></script>
    </body>
 </html>
